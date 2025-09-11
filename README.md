@@ -11,7 +11,7 @@ List any resources used here, or simply put `N/A` if not applicable.
 
 ## Verbal Collaboration
 
-| Student Name | CCID      |
-| ------------ | --------- |
-| `student`    | `student` |
-| `<Add more>` | `<CCID>`  |
+| Student Name        | CCID       |
+|---------------------|------------|
+| `Aahil Nazar Yusuf` | `aahilnaz` |
+| `<Add more>`        | `<CCID>`   |
