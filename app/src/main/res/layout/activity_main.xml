@@ -20,7 +20,9 @@
         android:text="ADD CITY"
         android:textSize="16sp"
         android:layout_margin="5dp"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/delete_button"
@@ -30,7 +32,9 @@
         android:text="DELETE CITY"
         android:textSize="16sp"
         android:layout_margin="5dp"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white" />
 
     </LinearLayout>
 

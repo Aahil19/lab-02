@@ -52,7 +52,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 selectedPosition = position;
-                Toast.makeText(MainActivity.this, "Selected: " + dataList.get(position), Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -89,9 +88,6 @@ public class MainActivity extends AppCompatActivity {
                 if (!cityName.isEmpty()) {
                     dataList.add(cityName);
                     cityAdapter.notifyDataSetChanged();
-                    Toast.makeText(MainActivity.this, "Added: " + cityName, Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(MainActivity.this, "City name cannot be empty", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -111,9 +107,6 @@ public class MainActivity extends AppCompatActivity {
             dataList.remove(selectedPosition);
             cityAdapter.notifyDataSetChanged();
             selectedPosition = -1;
-            Toast.makeText(this, "Deleted: " + deletedCity, Toast.LENGTH_SHORT).show();
-        } else {
-            Toast.makeText(this, "Please select a city to delete", Toast.LENGTH_SHORT).show();
         }
     }
 
